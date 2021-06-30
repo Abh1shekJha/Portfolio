@@ -14,33 +14,64 @@
             font-family: 'Kalam', cursive;                  -Hindi
             font-family: 'Martel', serif;                   -Hindi
             font-family: 'Roboto Slab', serif;
+            font-family: 'Ubuntu', sans-serif;
 
+
+---------------------------------------------------------------------------
+                        Color Scheme
+---------------------------------------------------------------------------
+            Smoke white : #F5F5F5
+            Oxford blue : #000A25
 
 ----------------------------------------------------------------------------
                             GENERAL CSS
 ---------------------------------------------------------------------------*/
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
 
 html, body{
     height: 100%;
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
-    background-color: #F5F5F5;
+    background-color:#F5F5F5;
 }
 body, body *{
     font-family: "Josefin Sans", sans-serif; 
-    color: crimson;
+    color: #000004;
+}
+body h1{
+    font-family: 'Roboto Slab', cursive;
+    font-size: 120px;
+    font-weight: 700;
+    color: #000000;
 }
 body h3{
-    font-family: 'Akaya Kanadaka', cursive;
-    font-size: 72px;
-    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+.c1{
     color: #F7FFF7;
 }
-body h4{
+.c2{
+    color: #D4DCFF;
+}
+.c3{
+    color: crimson;
+}
+.c4{
+    color:seagreen;
+}
+.f1{
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.f2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.f3{
     font-family: 'Roboto Slab', serif;
-    font-size: 35px;
-    font-weight: 500;
+}
+.f4{
+    font-family: 'Ubuntu';
 }
 .hindi-1{
     font-family: 'Martel', serif;
@@ -53,34 +84,157 @@ body h4{
 }
 .navbar{
     padding: 1%;
+    width: 100%;
     font-size: 22px; 
+    position: fixed;
+    z-index: 1;
+}
+.nav-right{
+   margin-left: 45%;
 }
 /*------------------------------------------------------------------------------
                                 HOME - HERO
 -------------------------------------------------------------------------------*/
 #home{
-    height: 100%;
+    position: relative;
+    top: 10%;
+    height: 90%;
+    margin: 0;
 }
 #home-cover{
     height: 100%;
     background-color: #000A25;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 1;
+    z-index:1 ;
+    display: flex;
 }
 #myPhoto img{
-    width: 25%;
+    width: 65%;
     float: left;
     border-top-left-radius: 20%;
     border-top-right-radius: 65%;
     border-bottom-right-radius: 145%;
     border-bottom-left-radius: 535%;
-    margin: 3%;
-    z-index: 2;
+    margin: 5%;
+    z-index: 1;
     background-color: crimson;
 }
 #info{
     float: left;
-    margin: 1%;
+    margin: 7% auto;
+    padding: 3%;
+    padding-left: 0;
+}
+#info a i{
+    padding: 1%;
+}
+
+/*---------------------------------------------------------------------------------
+                                About me
+----------------------------------------------------------------------------------*/
+#about-me{
+    position: relative;
+    margin: 0;
+    padding: 5% 0;
+    height: 89%;
     
+}
+.sec{
+    padding-top: 5%;
+    height: 89%;
+    
+}
+.heading{
+    text-align: center;
+    margin-top: 5%;
+}
+.line{
+    background-color: crimson;
+    width: 120px;
+    height: 7px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+#about-me img{
+    width: 95%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 65%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 25%;
+    filter: grayscale();
+    box-shadow: -5px 4px 13px black;
+    
+}
+.desc{
+    padding: 3%;
+    font-size: 20px;
+    text-justify: inter-word;
+    margin: 0 auto;
+    border-radius: 5px;      
+}
+
+/*-----------------------------------------------------------------------------------------------
+                            SKills
+------------------------------------------------------------------------------------------------*/
+.skills{
+    background-color: #111;
+    color: aliceblue;
+    margin: 0;
+    padding: 1%;
+}
+.skills .left h4{
+    font-size: 36px;
+    padding: 1% 0;
+}
+.skills .left{
+    font-size: 18px;
+    padding: 0 5%;
+    text-align: justify;
+}
+.skills *{
+    color: aliceblue;
+}
+.skills .bars{
+    margin-bottom: 15px;
+}
+.pline{
+    background-color: lightgrey;
+    width: 100%;
+    height: 7px;
+}
+.skills .bars .pline-left{
+   
+}
+.skills .bars .html{
+    width: 90%;
+    height: 100%;
+    background: crimson;
+}
+.skills .bars .python{
+    width: 75%;
+    height: 100%;
+    background: crimson;
+}
+.skills .bars .javascript{
+    width: 65%;
+    height: 100%;
+    background: crimson;
+}
+.skills .bars .c{
+    width: 80%;
+    height: 100%;
+    background: crimson;
+}
+.skills .bars .php{
+    width: 50%;
+    height: 100%;
+    background: crimson;
+}
+.skills .bars .sql{
+    width: 70%;
+    height: 100%;
+    background: crimson;
 }

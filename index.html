@@ -10,69 +10,79 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Josefin+Sans:ital,wght@0,400;1,300;1,500;1,600&family=Kalam:wght@400;700&family=Martel:wght@700;800&family=Roboto+Slab:wght@400;600;800&display=swap" rel="stylesheet">
-
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+      
+    <!-- font awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
       
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Hello, world!</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <title>Abhishek Jha</title>
   </head>
   
     <body>
 
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand hindi-2" href="#">अभिषेक झा</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse nav-right" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+                  <a class="nav-link" href="#about-me">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a class="nav-link" href="#skills">Skills</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                  
+                  
+                  
               </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
             </div>
           </div>
-</nav>
+        </nav>
         
         
         <section id="home">
             
-            <div id="home-cover" class="">
+            <div id="home-cover">
                 
                 
                 <div id="myPhoto">
                     <img src="imgs/Abh.png">
                 </div>
                 
-                <div id="info" class="col   ">
-                    <h4>Hello,</h4>
-                    <h3>My Name is Abhishek Jha</h3>
-                    <h2>I am a Programmer.</h2>
+                <div id="info" class="col">
+                    <h3 class="c1">Hello, my name is</h3>
+                    
+                    <h1> <span class="f1 c1">Abhishek Jha</span></h1>
+                    <h3 class="c2">I am a <span class="f3 c3 typing"></span></h3>
+                    
+                    
+                    <a href="#"><i class="fab fa-linkedin fa-3x c4"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square c4 fa-3x"></i></a>
+                    <a href="#"><i class="fab fa-github c4 fa-3x"></i></a>
                 </div>
                 
             </div>
@@ -81,11 +91,162 @@
    
       
       
+        <section id="about-me">
+        
+            <div class="container">
+                
+                <div class="row">
+                
+                    <div class="col heading">
+                        <h3 style="color: black">About me</h3>
+                        <div class="line"></div>
+                    </div>
+                    
+                </div>
+                
+                
+                <div class="row desc">
+                
+                    <div class="col-md-3">
+                    
+                        <img src="imgs/IMG_001.jpg">
+                    </div>
+                    <div class="col-md-9">
+                        <h4>Hi, I'm Abhishek Jha.</h4>
+                        <p>I was born and raised in Jamshedpur. I am a student of Computer Science & Engineering.</p>
+                        <p>I like to travel, read, watch movies, listen to music and hangout with my friends. I have also started blogging.&nbsp;&nbsp; I post poems on my blog.</p>
+                        <p>To speak of the professional domain I'm a cybersecurity enthusiast and I'm currently a keen learner in the field. Along with it I'm a web-developer,  android app developer and an enthusiastic programmer. I practice and test my problem solving abilities at <i class="fab fa-hackerrank"></i>hackerrank.</p>
+                        
+                        <p>To know me better in person do connect with me on social media.</p>
+                        <a href="#"><i class="fab fa-linkedin fa-2x c3"></i></a>
+                        <a href="#"><i class="fab fa-instagram-square c3 fa-2x"></i></a>
+                    
+                    
+                    </div>
+                    
+                </div>
+            
+            </div>
+        
+        </section>
+        
+        
+        
+        <section id="skills" class="skills">
+        
+            <div class="container">
+                
+                 <div class="col heading">
+                        <h3 class="c2">My skills</h3>
+                        <div class="line"></div>
+                </div>
+                
+               
+                    <div class="row">
+                    
+                        <div class="col-md-6 left">
+                        
+                        <h4 class="c1 f1">My Creative Skills and Experiences</h4>
+                        <p class="c1">I possess skills such as HTML, CSS, Javascript, Bootstrap and PHP which makes a webdeveloper. My other skills include MySQL, Networking and problem solving in Java.</p>
+                        <p>I do write some poetries and articles on my blog.</p>
+                        
+                        
+                        </div>
+                        
+                        <div class="col-md-6">
+                        
+                        <div class="bars">
+                            <div class="info row">
+                                <span class="col-md-11">Core Java</span>
+                                <span class="col-md-1">90%</span>
+                            </div>
+                            <div class="pline">                        
+                                <div class="html"></div>
+                            </div>
+                        </div>
+                            
+                             
+                        <div class="bars">
+                            <div class="info row">
+                                <span class="col-md-11">Python</span>
+                                <span class="col-md-1">75%</span>
+                            </div>
+                            <div class="pline">                        
+                                <div class="python"></div>
+                            </div>
+                        </div>
+                            
+                             
+                        <div class="bars">
+                            <div class="info row">
+                                <span class="col-md-11">HTML and CSS</span>
+                                <span class="col-md-1">90%</span>
+                            </div>
+                            <div class="pline">                        
+                                <div class="html"></div>
+                            </div>
+                        </div>
+                            
+                         
+                        <div class="bars">
+                            <div class="info row">
+                                <span class="col-md-11">Javascript</span>
+                                <span class="col-md-1">65%</span>
+                            </div>
+                            <div class="pline">                        
+                                <div class="javascript"></div>
+                            </div>
+                        </div>
+                            
+                             
+                        <div class="bars">
+                            <div class="info row">
+                                <span class="col-md-11">C</span>
+                                <span class="col-md-1">80%</span>
+                            </div>
+                            <div class="pline">                        
+                                <div class="c"></div>
+                            </div>
+                        </div>
+                            
+                         
+                        <div class="bars">
+                            <div class="info row">
+                                <span class="col-md-11">PHP</span>
+                                <span class="col-md-1">50%</span>
+                            </div>
+                            <div class="pline">                        
+                                <div class="php"></div>
+                            </div>
+                        </div>
+                            
+                         <div class="bars">
+                            <div class="info row">
+                                <span class="col-md-11">MySQL</span>
+                                <span class="col-md-1">70%</span>
+                            </div>
+                            <div class="pline">                        
+                                <div class="sql"></div>
+                            </div>
+                        </div>
+                   
+                    
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </section>
+      
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       
       
-      
-      
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="javascript/script.js"></script>
+
+        
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
    
