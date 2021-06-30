@@ -1,0 +1,86 @@
+/* -------------------------------------------------------------------------
+         Title:     Portfolio
+         Author:    Abhishek Jha
+         Date:      30-06-2021
+--------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------
+                        Default Font Scheme
+---------------------------------------------------------------------------
+
+            font-family: 'Akaya Kanadaka', cursive;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Kalam', cursive;                  -Hindi
+            font-family: 'Martel', serif;                   -Hindi
+            font-family: 'Roboto Slab', serif;
+
+
+----------------------------------------------------------------------------
+                            GENERAL CSS
+---------------------------------------------------------------------------*/
+
+
+html, body{
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    background-color: #F5F5F5;
+}
+body, body *{
+    font-family: "Josefin Sans", sans-serif; 
+    color: crimson;
+}
+body h3{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 72px;
+    font-weight: 700;
+    color: #F7FFF7;
+}
+body h4{
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+.hindi-1{
+    font-family: 'Martel', serif;
+    
+}
+.hindi-2{
+    font-family: 'Kalam', cursive;
+    font-size: 32px;
+    font-weight: 700;
+}
+.navbar{
+    padding: 1%;
+    font-size: 22px; 
+}
+/*------------------------------------------------------------------------------
+                                HOME - HERO
+-------------------------------------------------------------------------------*/
+#home{
+    height: 100%;
+}
+#home-cover{
+    height: 100%;
+    background-color: #000A25;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+#myPhoto img{
+    width: 25%;
+    float: left;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 65%;
+    border-bottom-right-radius: 145%;
+    border-bottom-left-radius: 535%;
+    margin: 3%;
+    z-index: 2;
+    background-color: crimson;
+}
+#info{
+    float: left;
+    margin: 1%;
+    
+}
