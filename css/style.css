@@ -123,16 +123,10 @@ body h3{
 #about-me{
     position: relative;
     margin: 0;
-    padding: 5% 0;
+    padding-top: 5%;
     height: 100%;
     
 }
-.sec{
-    position: relative;
-    margin: 0;
-    padding: 2% 0;
-}
-
 .heading{
     text-align: center;
     margin-top: 5%;
@@ -175,6 +169,7 @@ body h3{
 .skills{
     background-color: #111;
     color: aliceblue;
+    
 }
 
 .skills .heading{
@@ -234,8 +229,49 @@ body h3{
     height: 100%;
     background: crimson;
 }
-
+.hpad{
+    padding: 74px 0;
+}
 
 /*--------------------------------------------------------------------
                         Contact
 ---------------------------------------------------------------------*/
+.contact h3{
+    text-align: center;
+}
+.contact .data{
+    margin: 25px;
+}
+.contact .title{
+    font-weight: 600;
+}
+.contact .info{
+    padding-left: 18px;
+    font-size: 16px;
+}
+.contact .info .sub-title{
+    font-weight: 500;
+}
+.contact a{
+    margin: 5px;
+}
+
+.contact .data1{
+    font-size: 16px;
+    margin: 6%;
+}
+
+
+/*------------------------------------------------------------------------
+            footer
+-------------------------------------------------------------------------*/
+
+footer{
+    height: 60px;
+    background-color: #111;
+}
+footer h6{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 16px;
+}
