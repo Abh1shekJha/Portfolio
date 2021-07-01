@@ -26,7 +26,6 @@
 ----------------------------------------------------------------------------
                             GENERAL CSS
 ---------------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
 
 html, body{
     height: 100%;
@@ -134,6 +133,13 @@ body h3{
                                 About me
 ----------------------------------------------------------------------------------*/
 #about-me{
+    position: relative;
+    margin: 0;
+    padding: 5% 0;
+    height: 89%;
+    
+}
+.sec{
     position: relative;
     margin: 0;
     padding: 5% 0;
