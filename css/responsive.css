@@ -54,6 +54,9 @@
         height: 4px;
         width: 100px;
     }
+    #para p{
+      font-size: 2vh;
+    }
     #about-me img{
         width: 80%;
         height: 90%;
