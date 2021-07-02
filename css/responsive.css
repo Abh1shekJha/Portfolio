@@ -1,5 +1,11 @@
 @media only screen and (max-width: 700px) {
   
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
     body h1{
         font-size: 42px;
     }
@@ -8,14 +14,17 @@
     }
     #home{
         display: grid;
-        height: 720px;
+        height: 100vh;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
     }
     #info{
         display:block;
     }
   
     #profile-pic img{
-    width: 80%;
+    width: 50vh;
     background-color: crimson;
     border-top-left-radius: 20%;
     border-top-right-radius: 65%;
@@ -36,7 +45,7 @@
     
     #about-me{
     position: relative;
-    top: 10%;
+    height: 170vh;
     }
     .heading{    
     margin-top: 15%;
@@ -53,7 +62,8 @@
     }
     .skills{
         position: relative;
-        top: 70%;
+        top: 20%;
+        
     }
     
     .skills .left h4{
@@ -79,14 +89,23 @@
     
     #contact{
         position: relative;
-        top: 75%;
+        height: 80vh;
+    }
+    .contact .data i{
+        width: 8vh;
+    }
+    .contact .data .info{
+        width: 30vh;
     }
     .handsake{
         display: none;
     }
     footer{
         position: relative;
-        top: 90%;
+        
+    }
+    footer h6{
+        font-size: 2vh;
     }
     
     
