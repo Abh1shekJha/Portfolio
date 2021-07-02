@@ -62,7 +62,7 @@
     }
     .skills{
         position: relative;
-        top: 20%;
+        top: 15%;
         
     }
     
@@ -89,7 +89,6 @@
     
     #contact{
         position: relative;
-        top: 30%;
         height: 100vh;
     }
     .contact .data i{
