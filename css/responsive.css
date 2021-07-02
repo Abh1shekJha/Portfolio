@@ -89,6 +89,7 @@
     
     #contact{
         position: relative;
+        top: 20%;
         height: 80vh;
     }
     .contact .data i{
