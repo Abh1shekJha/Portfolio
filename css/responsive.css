@@ -62,7 +62,11 @@
     }
     .skills{
         position: relative;
+<<<<<<< HEAD
         top: 20%;
+=======
+        top: 15%;
+>>>>>>> b08525e7eeeea9c175c7f71d7cc80f527303b71d
         
     }
     
@@ -89,7 +93,11 @@
     
     #contact{
         position: relative;
+<<<<<<< HEAD
         height: 80vh;
+=======
+        height: 100vh;
+>>>>>>> b08525e7eeeea9c175c7f71d7cc80f527303b71d
     }
     .contact .data i{
         width: 8vh;
