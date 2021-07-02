@@ -89,8 +89,8 @@
     
     #contact{
         position: relative;
-        top: 20%;
-        height: 80vh;
+        top: 30%;
+        height: 100vh;
     }
     .contact .data i{
         width: 8vh;
