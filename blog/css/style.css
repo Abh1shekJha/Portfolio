@@ -1,0 +1,127 @@
+/* -------------------------------------------------------------------------
+         Title:     Portfolio
+         Author:    Abhishek Jha
+         Date:      30-06-2021
+--------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------
+                        Default Font Scheme
+---------------------------------------------------------------------------
+
+            font-family: 'Akaya Kanadaka', cursive;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Kalam', cursive;                  -Hindi
+            font-family: 'Martel', serif;                   -Hindi
+            font-family: 'Roboto Slab', serif;
+            font-family: 'Ubuntu', sans-serif;
+
+
+---------------------------------------------------------------------------
+                        Color Scheme
+---------------------------------------------------------------------------
+            Smoke white : #F5F5F5
+            Oxford blue : #000A25
+
+----------------------------------------------------------------------------
+                            GENERAL CSS
+---------------------------------------------------------------------------*/
+
+html, body{
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #14142A;
+}
+body, body *{
+    font-family: "Kalam", sans-serif; 
+    color: crimson;
+}
+body h1{
+    font-family: 'Martel', serif;
+    font-size: ;
+    font-weight: 700;
+    color: #000000;
+}
+body h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+.navbar-brand{
+    font-size: 4vh;
+    font-weight: 600;
+    text-shadow: 2px 3px 3px #000;
+    margin: 0 4vh;
+}
+.navbar-nav{
+  margin-left: 90%;
+}
+.nav-item{
+    font-size: 20px;
+}
+.f1{
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.f2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.f3{
+    font-family: 'Roboto Slab', serif;
+}
+.f4{
+    font-family: 'Ubuntu';
+}
+.hindi-1{
+    font-family: 'Martel', serif;
+        
+}
+.hindi-2{
+    font-family: 'Kalam', cursive;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    background-color: black;
+}
+#content{
+    position: relative;
+    top: 10%;
+}
+.item-box{
+    box-shadow: -8px 5px 4px black;
+    color: black;
+    font-size: 18px;
+    background-color: #1B1B3A;
+    border: 3px solid black;
+    margin: 35px auto;
+}
+.item-box p{
+    color:aliceblue;
+    text-shadow: 3px 2px 3px black;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 0 4%;
+}
+.item-box h3{
+    font-weight: 1000;
+    color: #111118;
+    text-shadow: 1px 2px 2px #121;
+    font-style: italic;
+    text-align: center;
+    border: 3px solid #337;
+    border-radius: 34px;
+    background-color: #BFD7EA;
+    box-shadow: 3px 10px 5px black;
+    margin: 2%;
+    padding: 0;
+    
+}
+.Author{
+    text-align: right;
+    padding: 2vh 3vh;
+    font-size: 20px;
+    text-shadow: 5px 2px 4px black;
+}
